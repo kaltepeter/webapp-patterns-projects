@@ -8,6 +8,16 @@
     <link rel="manifest" href="app.webmanifest">
     <link rel="apple-touch-icon" href="/images/icon-permissions.svg">
     <link rel="icon" href="images/icon-permissions.svg">
+
+    <script type="speculationrules">
+        {
+            "prerender": [
+            {
+                "urls": ["fish-tacos", "vegetatian-pho.html"]
+            }
+            ]
+        }
+    </script>
 </head>
 
 <body>
@@ -21,7 +31,7 @@
             <section class="two-columns">
                 <div>
                     <h3>Recipe of the Week</h3>
-                    <div id="recipe-week">
+                    <div id="recipe-week" style="view-timeline-name: fish-tacos;">
         <a href="fish-tacos.html" class="large recipe">
             <img src="images/original/fish-tacos-with-pickled-onion.png">
             <h4>Fish Tacos with Pickled Onion</h4>
@@ -73,7 +83,7 @@
     </li></ul>
             </section>
         </section>
-               
+
     </main>
 
     <footer>

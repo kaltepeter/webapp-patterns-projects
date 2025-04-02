@@ -1,3 +1,7 @@
+@view-transition {
+    navigation: auto;
+}
+
 :root {
     --background-surface: #F1F1F3;
     --primaryColor: #C06918;
@@ -46,7 +50,7 @@ body>header {
     margin: auto;
     display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
 }
 
 body>header * {
@@ -127,7 +131,7 @@ h3, .recipe {
 
 .recipe h4 {
     margin: 0 0 0 12px;
-} 
+}
 
 .recipe p {
     margin: 4px 12px;
@@ -207,7 +211,7 @@ article h3 {
     width: 300px;
 }
 
-dl {    
+dl {
     width: 300px;
     display: flex;
     flex-wrap: wrap;
@@ -231,7 +235,7 @@ dd {
 
 .page header img {
     flex-grow: 1;
-    flex: 1;    
+    flex: 1;
     border-top-right-radius: 15px;
 }
 
